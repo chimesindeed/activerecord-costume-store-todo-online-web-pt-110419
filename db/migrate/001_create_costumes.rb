@@ -9,8 +9,11 @@
 # value types according to the spec
 
 class CreateCostumes
-  create_table :costumes do |t|
+  
     
   def change
+    create_table :costumes do |t|
+      t.text :name
+      t.
   end
 end
